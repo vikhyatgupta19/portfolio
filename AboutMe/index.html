@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website-Vikhyat</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+
+    <!-- A navigation bar -->
+  <nav class="navbar navbar-expand-sm bg-success fixed-top navbar-dark">
+   <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="images/logo.jpg" alt="Logo" style="width:45px;height:50px" class="rounded-pill">
+    </a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#portfolio">Portfolio</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#skillset"> Skillset </a>
+      </li>
+    </ul>
+   </div>
+  </nav>
+
+  <!-- Main Banner/Section-->
+  <section class="bgimage" id="home">
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+            <h2 class="hero_title">Hi, I am Vikhyat</h2>
+            <p class="hero_desc">I am an experienced GIS professional</p>
+        </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section id="about">
+    <div class="container">
+        <h1 class="text-center">About Me</h1>
+        <div class="row">
+            <div class="col">
+                <img src="images/aboutme.jpg" class="img-thumbnail" alt="test">
+            </div>
+            <div class="col-10">
+                <p> I am an experienced GIS professional with expertise in ESRI products like ArcGIS Pro, ArcGIS Desktop, ArcGIS Online, ArcGIS Enterprise etc. I have done my Masters in Geomatics from CEPT University, Ahmedabad. I have done my academic projects related in the fields of disaster management, environment etc. I am always keen on learning new technologies.</p>
+                <p> I have worked with various ESRI Inc. clients and have assisted them in troubleshooting software related issues and also suggest efficient workflows to meet their business requirements using ESRI software. </p>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!--Portfolio-->
+  <section id="portfolio">
+    <div class="container">
+      <h1 class="text-center"> Portfolio </h1>
+      <div class="row">
+        <div class="col">
+          <div class="card portfolioContent">
+            <img class="card-img-top" src="images/accidents.jpg" alt="Card Image" style="width:100%">
+            <div class="card-body">
+              <h4 class="text-center"> Road Accidents</h4>
+              <p class="card-text"> This study used basic geospatial tools to understand different factors contributing to road accidents.</p>
+              <div class="text-center">
+              <a href="https://portfolio.cept.ac.in/2021/M/ft/geographic-information-science-foundation-studio-ge4002-monsoon-2021/identify-factors-suggesting-measures-to-curb-accidents-monsoon-2021-pge21399" target="_blank" class="btn btn-success">Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card portfolioContent">
+            <img class="card-img-top" src="images/floods.jpg" alt="Card Image" style="width:100%">
+            <div class="card-body">
+              <h4 class="text-center"> Flood Vulnerability</h4>
+              <p class="card-text"> This study focused on identifying the sectors vulnerable to floods by taking various physical factors into account.</p>
+              <div class="text-center">
+              <a href="https://portfolio.cept.ac.in/2022/S/ft/gis-for-smart-cities-ge4003-spring-2022/assessing-urban-floods-using-gis-remote-sensing-spring-2022-pge21399" target="_blank" class="btn btn-success">Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card portfolioContent">
+            <img class="card-img-top" src="images/airquality.jpg" alt="Card Image" style="width:100%">
+            <div class="card-body">
+              <h4 class="text-center"> Air Quality Assessment</h4>
+              <p class="card-text"> The study focused on estimating the concentrations of PM 2.5 & 10 by taking a machine learning approach</p>
+              <div class="text-center">
+              <a href="https://portfolio.cept.ac.in/2022/M/ft/geospatial-modelling-and-application-ge4001-monsoon-2022/air-quality-assessment-monsoon-2022-pge21399" target="_blank" class="btn btn-success"> Link </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card portfolioContent">
+            <img class="card-img-top" src="images/sewage.jpg" alr="Card Image" style="width:100%">
+            <div class="card-body">
+              <h4 class="text-center"> Sewage Generation </h4>
+              <p class="card-text"> This study was done to understand sewage generation in Varanasi and its impact on existing STPs.</p>
+              <div class="text-center">
+              <a href="https://storymaps.arcgis.com/stories/b1996da201594ea2b15a20720264e3c9" target="_blank" class="btn btn-success"> Link </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Skillset-->
+  <section id="skillset">
+    <div class="container">
+      <h1 class="text-center"> Skillset</h1>
+      <div class="row">
+        <div class="col">
+         <div style="margin-top: 10px">ArcGIS Pro</div>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div style="margin-top: 10px">ArcGIS Online</div>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div style="margin-top: 10px">ArcGIS Enterprise</div>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div style="margin-top: 10px">Python(Pandas, Numpy, Seaborn etc.)</div>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div style="margin-top: 10px">HTML/CSS</div>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div style="margin-top: 10px">Javascript</div>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div style="margin-top: 10px">SQL Server</div>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div style="margin-top: 10px">PostgreSQL</div>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div style="margin-top: 10px">Google Earth Engine</div>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+
+        <div class="col">
+          <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1hEUNAQn8yTW0pDV7AQq93ag6kjJv0K4&ehbc=2E312F" width="640" height="480"></iframe>
+        </div>
+    </div>
+  </section>
+
+   <!-- footer section-->
+   <footer id="footer">
+    <div class="container">
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+            <a href="https://www.facebook.com/Gvikh/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/vikhyat_gupta/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/vikhyat-gupta-18849489/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+     </div>
+  </footer>
+</body>
+</html>
